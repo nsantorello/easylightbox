@@ -57,3 +57,5 @@ Further notes
 You can also show and hide lightboxes from Javascript.  
 * `EasyLightbox.showLightbox("myEasyLightbox")` - show the lightbox with the ID of "myEasyLightbox"
 * `EasyLightbox.closeLightbox()` - close the lightbox
+
+#### That's all, folks!  Told you it was easy!
