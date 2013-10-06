@@ -1,0 +1,25 @@
+#easylightbox {
+  display:none;
+  background: black;
+  opacity:0.75;
+  filter:alpha(opacity=90);
+  position:fixed;
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+
+#easylightbox-panel {
+  display:none;
+  position:fixed;
+  border-radius: 15px;
+  top:100px;
+  left:50%;
+  margin-left:-290px;
+  width:500px;
+  background: white;
+  padding: 40px;
+  z-index:1001;
+}
