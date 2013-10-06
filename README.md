@@ -19,8 +19,8 @@ Usage
     <!-- Be sure to include jQuery! -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-    <script src="../lib/easylightbox.js"></script>
-    <link href="../lib/easylightbox.css" rel="stylesheet" type="text/css" />
+    <script src="/path/to/easylightbox.js"></script>
+    <link href="/path/to/easylightbox.css" rel="stylesheet" type="text/css" />
   </head>
 ```
 2. Paste the following near the bottom of your page:
