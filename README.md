@@ -3,6 +3,14 @@ EasyLightbox
 
 EasyLightbox is a lightbox implementation that is braindead simple to integrate and use, and yet still quite powerful.
 
+Features
+--------
+* Easy to use and integrate
+* Ability to create links that will automatically cause the lightbox to show when the page is loaded,  e.g. `mypage.html#mylightbox` opens `mylightbox`
+* Lazy loading of content (e.g. images, videos) until the user opens the lightbox
+* Escape key closes the lightbox
+* Easy to create links that show and hide lightboxes
+
 Installation
 ------------
 
