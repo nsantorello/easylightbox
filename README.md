@@ -52,9 +52,10 @@ Or <a href="#" class="close-easylightbox">click here</a> to close it.
 </div>
 ```
 _It is important that the content of your lightbox be commented out.  This prevents it from being shown, and also prevents the loading of any content within the lightbox (e.g. images, video, etc.)._
-4. Show your lightbox!  
+4. Show your lightbox!  (and close it)
 ``` html
 <a href="#myEasyLightbox" class="show-easylightbox" data-easylightbox="myEasyLightbox">Show lightbox</a>
+<a href="#" class="close-easylightbox">Close lightbox</a>
 ```
 The `data-easylightbox` attribute on the link contains the ID of the element containing your commented out lightbox code.  If you like, you can specify the `href` and, if someone copies the address of the page while the lightbox is shown, the link they copy will make the lightbox autoappear on page load. 
 5. That's it!
