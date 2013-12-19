@@ -22,7 +22,7 @@ _Note: EasyLightbox requires jQuery._
 Usage
 -----
 1. Include the EasyLightbox JS and CSS.  Something like this:
-``` html
+```
 <head>
     <!-- Be sure to include jQuery! -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -32,7 +32,7 @@ Usage
   </head>
 ```
 2. Paste the following near the bottom of your page:
-``` html
+```
 <!-- EasyLightbox code -->
 <div id="easylightbox-panel">
     <div id="easylightbox-content"></div>
@@ -40,7 +40,7 @@ Usage
 <div id="easylightbox" class="close-easylightbox"></div>
 ```
 3. Create an EasyLightbox on your page.  Something like this:
-``` html
+```
 <div id="myEasyLightbox">
 <!--
 <div align='center'>
@@ -53,7 +53,7 @@ Or <a href="#" class="close-easylightbox">click here</a> to close it.
 ```
 _It is important that the content of your lightbox be commented out.  This prevents it from being shown, and also prevents the loading of any content within the lightbox (e.g. images, video, etc.)._
 4. Show your lightbox!  (and close it)
-``` html
+```
 <a href="#myEasyLightbox" class="show-easylightbox" data-easylightbox="myEasyLightbox">Show lightbox</a>
 <a href="#" class="close-easylightbox">Close lightbox</a>
 ```
